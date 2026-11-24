@@ -1,0 +1,72 @@
+[
+  {
+    "person_or_org": {
+      "type": "personal",
+      "family_name": "Sakar",
+      "given_name": "C. Okan"
+    }
+  },
+  {
+    "person_or_org": {
+      "type": "personal",
+      "family_name": "Serbes",
+      "given_name": "Gorkem"
+    }
+  },
+  {
+    "person_or_org": {
+      "type": "personal",
+      "family_name": "Gunduz",
+      "given_name": "Aysegul"
+    }
+  },
+  {
+    "person_or_org": {
+      "type": "personal",
+      "family_name": "Tunc",
+      "given_name": "Hunkar C."
+    }
+  },
+  {
+    "person_or_org": {
+      "type": "personal",
+      "family_name": "Nizam",
+      "given_name": "Hatice"
+    }
+  },
+  {
+    "person_or_org": {
+      "type": "personal",
+      "family_name": "Sakar",
+      "given_name": "Betul Erdogdu"
+    }
+  },
+  {
+    "person_or_org": {
+      "type": "personal",
+      "family_name": "Tutuncu",
+      "given_name": "Melih"
+    }
+  },
+  {
+    "person_or_org": {
+      "type": "personal",
+      "family_name": "Aydin",
+      "given_name": "Tarkan"
+    }
+  },
+  {
+    "person_or_org": {
+      "type": "personal",
+      "family_name": "Isenkul",
+      "given_name": "M. Erdem"
+    }
+  },
+  {
+    "person_or_org": {
+      "type": "personal",
+      "family_name": "Apaydin",
+      "given_name": "Hulya"
+    }
+  }
+]

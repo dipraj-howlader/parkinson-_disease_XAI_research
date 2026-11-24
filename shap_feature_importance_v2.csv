@@ -1,0 +1,753 @@
+rank,feature,family,mean_abs_shap,ci_lo,ci_hi,mean_signed_shap,spearman_value_vs_shap,share_of_total,auc_feature_vs_class,auc_feature_vs_sex,fold_top20_frequency
+1,std_delta_delta_log_energy,MFCC delta-delta,0.4371772,0.3620526134967804,0.5158126875758171,0.03196924,0.9461554956910992,0.036117688,0.798329454787234,0.5602774274905422,5
+2,tqwt_entropy_log_dec_27,TQWT (entropy),0.30290034,0.27446971237659457,0.336590451002121,0.11264631,0.49922935681449604,0.025024315,0.6797706117021277,0.8064312736443884,4
+3,tqwt_kurtosisValue_dec_20,TQWT (kurtosisValue),0.27161184,0.24840031750500202,0.29461583569645877,0.058160145,0.7798875531073671,0.022439394,0.7267702792553191,0.6738650693568725,4
+4,std_7th_delta_delta,MFCC delta-delta,0.2373002,0.21275211833417415,0.2618626311421394,0.044841643,0.8674364741313393,0.019604715,0.7763048537234043,0.5951134930643127,4
+5,mean_MFCC_1st_coef,MFCC,0.23662226,0.22049391306936741,0.2523964948952198,0.042785034,-0.8213505198079288,0.019548707,0.4505485372340426,0.5629886506935687,3
+6,tqwt_maxValue_dec_13,TQWT (maxValue),0.23307393,0.21815934777259827,0.24833231940865516,0.08661698,-0.5308672071723206,0.01925556,0.25324135638297873,0.3711223203026482,2
+7,std_7th_delta,MFCC delta,0.23009165,0.2075675532221794,0.25613693445920943,0.038174525,0.828789465727282,0.019009175,0.7602227393617021,0.564123581336696,1
+8,tqwt_entropy_log_dec_33,TQWT (entropy),0.22799999,0.17756903655827044,0.2931026853621006,0.031424485,-0.6378043315301948,0.018836372,0.3558843085106383,0.49110970996216896,4
+9,tqwt_entropy_shannon_dec_25,TQWT (entropy),0.20973109,0.17904758863151074,0.24170650839805602,0.032183073,0.9192821919389128,0.017327074,0.547124335106383,0.5469735182849937,3
+10,std_8th_delta_delta,MFCC delta-delta,0.20640098,0.1780708484351635,0.23618506789207458,0.031368528,0.7384244021826566,0.017051954,0.7800033244680852,0.5963430012610341,3
+11,mean_MFCC_6th_coef,MFCC,0.19252473,0.15259960778057574,0.23792846463620662,0.06410409,-0.5456438592097838,0.015905559,0.42578124999999994,0.43991172761664565,1
+12,tqwt_entropy_log_dec_1,TQWT (entropy),0.17182426,0.15338630191981792,0.18992698788642884,0.020500496,0.8773632478528507,0.014195376,0.4727393617021277,0.47509457755359397,2
+13,tqwt_energy_dec_26,TQWT (energy),0.16806225,0.15063185952603816,0.18768334314227103,0.06177154,0.752831409697197,0.013884576,0.7258976063829787,0.716204287515763,4
+14,std_6th_delta_delta,MFCC delta-delta,0.1651804,0.11576739698648453,0.22393283806741238,0.0813066,0.7531797834646484,0.013646489,0.7676196808510638,0.5845523329129887,1
+15,tqwt_TKEO_std_dec_25,TQWT (TKEO),0.16245134,0.14889526814222337,0.1771608091890812,0.0590936,0.7501629334949024,0.013421026,0.5317071143617021,0.510844892812106,2
+16,tqwt_minValue_dec_11,TQWT (minValue),0.15695454,0.13744347654283046,0.17928482480347155,0.05532096,0.23535580888676597,0.012966905,0.7361203457446808,0.5239596469104666,3
+17,tqwt_meanValue_dec_5,TQWT (meanValue),0.13964827,0.12735832184553147,0.15243624188005925,-0.003824516,-0.6854094575419388,0.011537136,0.3907912234042553,0.4962168978562421,2
+18,mean_MFCC_7th_coef,MFCC,0.1311581,0.11685346979647875,0.14591985009610653,-0.004334718,0.7882341151149242,0.010835714,0.5801196808510638,0.3807692307692308,1
+19,tqwt_entropy_shannon_dec_12,TQWT (entropy),0.13014983,0.10856279563158751,0.15451480783522129,0.014421357,-0.3737570133681024,0.010752415,0.23678523936170215,0.3434426229508196,1
+20,tqwt_TKEO_mean_dec_12,TQWT (TKEO),0.12774931,0.09903489593416452,0.16148302890360355,0.011701597,-0.22262665143589394,0.010554095,0.23977726063829785,0.3488020176544767,4
+21,mean_11th_delta_delta,MFCC delta-delta,0.12567163,,,0.014518869,,0.0103824455,,,2
+22,tqwt_entropy_log_dec_25,TQWT (entropy),0.12350884,,,0.05176793,,0.010203766,,,1
+23,det_entropy_shannon_1_coef,Wavelet / entropy / TKEO,0.11974583,,,0.013346843,,0.009892882,,,0
+24,tqwt_skewnessValue_dec_23,TQWT (skewnessValue),0.11237653,,,0.022505423,,0.009284062,,,3
+25,tqwt_energy_dec_7,TQWT (energy),0.109201655,,,0.028274857,,0.009021767,,,3
+26,tqwt_kurtosisValue_dec_33,TQWT (kurtosisValue),0.108993806,,,0.017390186,,0.009004597,,,1
+27,tqwt_maxValue_dec_12,TQWT (maxValue),0.107714675,,,0.036057778,,0.00889892,,,2
+28,tqwt_skewnessValue_dec_8,TQWT (skewnessValue),0.107519396,,,0.0010677436,,0.008882787,,,1
+29,tqwt_skewnessValue_dec_10,TQWT (skewnessValue),0.10523694,,,0.0435379,,0.00869422,,,0
+30,tqwt_meanValue_dec_1,TQWT (meanValue),0.1029867,,,0.016956478,,0.008508315,,,0
+31,tqwt_medianValue_dec_1,TQWT (medianValue),0.10026877,,,0.017429473,,0.008283772,,,0
+32,tqwt_skewnessValue_dec_9,TQWT (skewnessValue),0.09963427,,,-0.009937352,,0.008231352,,,1
+33,std_11th_delta_delta,MFCC delta-delta,0.097163945,,,0.050870888,,0.008027264,,,0
+34,tqwt_TKEO_std_dec_8,TQWT (TKEO),0.09503238,,,0.04483357,,0.007851164,,,0
+35,mean_delta_delta_log_energy,MFCC delta-delta,0.09487844,,,0.010914971,,0.007838446,,,1
+36,tqwt_entropy_log_dec_32,TQWT (entropy),0.094278395,,,0.008793231,,0.007788873,,,0
+37,tqwt_kurtosisValue_dec_7,TQWT (kurtosisValue),0.092959054,,,0.001036008,,0.0076798745,,,0
+38,minIntensity,Intensity,0.09114629,,,0.0013826576,,0.007530112,,,1
+39,std_9th_delta,MFCC delta,0.09094427,,,0.025193496,,0.0075134216,,,1
+40,tqwt_entropy_shannon_dec_34,TQWT (entropy),0.088369854,,,-0.02202852,,0.0073007345,,,0
+41,tqwt_energy_dec_16,TQWT (energy),0.08447517,,,0.01598892,,0.0069789723,,,0
+42,std_6th_delta,MFCC delta,0.083668314,,,0.0057829726,,0.006912314,,,0
+43,tqwt_skewnessValue_dec_12,TQWT (skewnessValue),0.08311187,,,0.004880971,,0.0068663424,,,0
+44,mean_MFCC_3rd_coef,MFCC,0.08216608,,,0.036959335,,0.006788206,,,3
+45,tqwt_meanValue_dec_11,TQWT (meanValue),0.079278685,,,0.030339703,,0.0065496615,,,0
+46,mean_MFCC_5th_coef,MFCC,0.078747936,,,-0.020730382,,0.0065058134,,,1
+47,tqwt_skewnessValue_dec_25,TQWT (skewnessValue),0.07830011,,,0.009421045,,0.006468816,,,0
+48,std_8th_delta,MFCC delta,0.07741477,,,0.05043188,,0.0063956734,,,1
+49,tqwt_kurtosisValue_dec_5,TQWT (kurtosisValue),0.07570822,,,0.010025105,,0.006254685,,,0
+50,tqwt_TKEO_mean_dec_25,TQWT (TKEO),0.07353899,,,0.042204864,,0.0060754726,,,0
+51,tqwt_medianValue_dec_26,TQWT (medianValue),0.0725179,,,-0.001449547,,0.005991115,,,0
+52,tqwt_stdValue_dec_33,TQWT (stdValue),0.07139483,,,0.0073038037,,0.0058983318,,,0
+53,std_MFCC_4th_coef,MFCC,0.07083258,,,0.005095178,,0.005851881,,,2
+54,mean_2nd_delta,MFCC delta,0.06961102,,,0.018964412,,0.005750961,,,0
+55,tqwt_minValue_dec_12,TQWT (minValue),0.069530055,,,0.010340611,,0.005744272,,,0
+56,tqwt_energy_dec_11,TQWT (energy),0.069170624,,,-0.009843392,,0.005714577,,,2
+57,mean_6th_delta,MFCC delta,0.06903587,,,0.0050776075,,0.005703445,,,0
+58,IMF_SNR_TKEO,IMF,0.06604095,,,0.012968037,,0.0054560173,,,0
+59,tqwt_kurtosisValue_dec_23,TQWT (kurtosisValue),0.065339066,,,0.011487366,,0.005398031,,,1
+60,tqwt_kurtosisValue_dec_15,TQWT (kurtosisValue),0.065336645,,,0.005915704,,0.0053978306,,,0
+61,mean_5th_delta,MFCC delta,0.06396758,,,0.020364325,,0.0052847243,,,0
+62,std_4th_delta_delta,MFCC delta-delta,0.06320513,,,0.018252252,,0.0052217343,,,2
+63,numPulses,Pulse/period,0.062015615,,,0.025104037,,0.0051234616,,,0
+64,tqwt_TKEO_std_dec_16,TQWT (TKEO),0.059853848,,,0.0058124736,,0.0049448656,,,0
+65,GNE_NSR_SEO,GNE,0.058499455,,,-0.003392215,,0.004832972,,,0
+66,std_9th_delta_delta,MFCC delta-delta,0.058167372,,,0.019760672,,0.0048055365,,,2
+67,stdDevPeriodPulses,Pulse/period,0.057228133,,,0.001423828,,0.0047279405,,,0
+68,IMF_NSR_TKEO,IMF,0.05714299,,,-0.0042815683,,0.0047209063,,,0
+69,tqwt_meanValue_dec_23,TQWT (meanValue),0.056481104,,,0.0051536215,,0.004666224,,,0
+70,tqwt_medianValue_dec_17,TQWT (medianValue),0.056318924,,,-0.0035411073,,0.0046528256,,,0
+71,tqwt_meanValue_dec_28,TQWT (meanValue),0.053918302,,,0.0022770353,,0.004454497,,,0
+72,tqwt_energy_dec_25,TQWT (energy),0.053547073,,,0.033803016,,0.0044238274,,,1
+73,tqwt_TKEO_std_dec_11,TQWT (TKEO),0.05243807,,,0.021203583,,0.004332206,,,0
+74,tqwt_skewnessValue_dec_33,TQWT (skewnessValue),0.05218499,,,0.008886998,,0.004311298,,,0
+75,tqwt_TKEO_std_dec_13,TQWT (TKEO),0.052031767,,,0.024021713,,0.004298639,,,1
+76,mean_1st_delta_delta,MFCC delta-delta,0.049320467,,,0.0038090032,,0.0040746434,,,0
+77,tqwt_maxValue_dec_25,TQWT (maxValue),0.048279803,,,0.020318633,,0.0039886683,,,1
+78,tqwt_stdValue_dec_34,TQWT (stdValue),0.047532212,,,0.0015860726,,0.0039269053,,,0
+79,tqwt_kurtosisValue_dec_27,TQWT (kurtosisValue),0.047298245,,,0.022980908,,0.003907576,,,0
+80,f1,Formant frequency,0.047250524,,,0.02633652,,0.0039036337,,,1
+81,tqwt_kurtosisValue_dec_21,TQWT (kurtosisValue),0.04621089,,,0.007463167,,0.0038177434,,,0
+82,det_LT_entropy_log_5_coef,Wavelet / entropy / TKEO,0.045335174,,,0.008279627,,0.0037453957,,,0
+83,tqwt_entropy_log_dec_11,TQWT (entropy),0.044377886,,,0.022652153,,0.0036663087,,,0
+84,GNE_NSR_TKEO,GNE,0.043963995,,,0.014794781,,0.0036321147,,,0
+85,tqwt_TKEO_mean_dec_31,TQWT (TKEO),0.04383017,,,0.004700605,,0.003621059,,,0
+86,tqwt_meanValue_dec_16,TQWT (meanValue),0.042881526,,,-0.0003895327,,0.0035426859,,,0
+87,std_MFCC_3rd_coef,MFCC,0.042328086,,,0.00067935017,,0.003496963,,,0
+88,tqwt_maxValue_dec_20,TQWT (maxValue),0.04221191,,,0.011029616,,0.003487365,,,0
+89,det_TKEO_mean_1_coef,Wavelet / entropy / TKEO,0.04203992,,,0.021050118,,0.0034731561,,,0
+90,RPDE,Baseline / glottal quotient,0.041825026,,,0.0092468485,,0.0034554026,,,0
+91,tqwt_medianValue_dec_8,TQWT (medianValue),0.04099168,,,0.0038541236,,0.003386555,,,0
+92,tqwt_maxValue_dec_18,TQWT (maxValue),0.04087484,,,0.015985828,,0.003376902,,,0
+93,tqwt_kurtosisValue_dec_10,TQWT (kurtosisValue),0.040333796,,,0.020319782,,0.0033322035,,,1
+94,tqwt_energy_dec_28,TQWT (energy),0.03925312,,,0.017243505,,0.0032429227,,,0
+95,tqwt_energy_dec_12,TQWT (energy),0.037513185,,,0.018728802,,0.0030991768,,,0
+96,tqwt_energy_dec_35,TQWT (energy),0.037005488,,,0.009704872,,0.003057233,,,0
+97,tqwt_TKEO_mean_dec_11,TQWT (TKEO),0.036860593,,,0.0034466716,,0.0030452625,,,0
+98,tqwt_meanValue_dec_20,TQWT (meanValue),0.035701893,,,0.009435892,,0.0029495358,,,0
+99,tqwt_minValue_dec_13,TQWT (minValue),0.035451118,,,0.014160031,,0.0029288179,,,0
+100,tqwt_medianValue_dec_34,TQWT (medianValue),0.034885716,,,0.0029560584,,0.0028821067,,,0
+101,tqwt_TKEO_std_dec_21,TQWT (TKEO),0.034693923,,,0.006007513,,0.0028662616,,,0
+102,f3,Formant frequency,0.034531116,,,-0.014660904,,0.0028528112,,,0
+103,mean_MFCC_0th_coef,MFCC,0.03420151,,,0.00023819994,,0.0028255808,,,0
+104,tqwt_kurtosisValue_dec_32,TQWT (kurtosisValue),0.034188297,,,0.008033392,,0.002824489,,,0
+105,mean_MFCC_2nd_coef,MFCC,0.034177236,,,0.003972293,,0.0028235752,,,0
+106,tqwt_minValue_dec_18,TQWT (minValue),0.033367414,,,0.0076476047,,0.0027566713,,,0
+107,tqwt_skewnessValue_dec_13,TQWT (skewnessValue),0.033117883,,,0.0058288383,,0.002736056,,,0
+108,tqwt_kurtosisValue_dec_36,TQWT (kurtosisValue),0.032748744,,,-0.001117473,,0.0027055594,,,0
+109,tqwt_kurtosisValue_dec_22,TQWT (kurtosisValue),0.032262154,,,0.006686617,,0.0026653595,,,0
+110,VFER_SNR_SEO,VFER,0.031723224,,,0.006544304,,0.0026208353,,,0
+111,std_MFCC_2nd_coef,MFCC,0.031591237,,,0.00051586534,,0.0026099312,,,0
+112,mean_MFCC_9th_coef,MFCC,0.030999377,,,-0.009351008,,0.0025610344,,,0
+113,tqwt_medianValue_dec_30,TQWT (medianValue),0.030655656,,,-0.0055108215,,0.0025326374,,,0
+114,tqwt_maxValue_dec_7,TQWT (maxValue),0.029868616,,,-0.0079998365,,0.0024676158,,,0
+115,tqwt_TKEO_std_dec_19,TQWT (TKEO),0.02980797,,,0.010973871,,0.0024626055,,,0
+116,tqwt_medianValue_dec_7,TQWT (medianValue),0.029699145,,,0.00337509,,0.0024536147,,,0
+117,tqwt_entropy_shannon_dec_36,TQWT (entropy),0.029435098,,,-0.0022630198,,0.0024318004,,,0
+118,det_entropy_shannon_3_coef,Wavelet / entropy / TKEO,0.02917943,,,0.0024262608,,0.0024106782,,,0
+119,tqwt_energy_dec_21,TQWT (energy),0.028431708,,,-0.0020984488,,0.0023489045,,,0
+120,tqwt_medianValue_dec_20,TQWT (medianValue),0.028180325,,,0.00054632,,0.0023281365,,,0
+121,std_4th_delta,MFCC delta,0.027608706,,,0.008237269,,0.0022809117,,,0
+122,det_LT_TKEO_mean_5_coef,Wavelet / entropy / TKEO,0.027532257,,,-0.001011402,,0.002274596,,,0
+123,mean_5th_delta_delta,MFCC delta-delta,0.027365956,,,0.008189851,,0.0022608568,,,0
+124,tqwt_skewnessValue_dec_15,TQWT (skewnessValue),0.026521428,,,0.004720974,,0.0021910854,,,0
+125,mean_3rd_delta,MFCC delta,0.026008412,,,0.0041821823,,0.0021487023,,,0
+126,tqwt_medianValue_dec_4,TQWT (medianValue),0.025807627,,,0.004099891,,0.0021321143,,,0
+127,std_10th_delta_delta,MFCC delta-delta,0.025263052,,,0.01021245,,0.002087124,,,1
+128,std_MFCC_5th_coef,MFCC,0.025054183,,,-0.0067398916,,0.0020698681,,,0
+129,tqwt_stdValue_dec_32,TQWT (stdValue),0.024776798,,,0.0053536026,,0.0020469518,,,0
+130,VFER_SNR_TKEO,VFER,0.024505947,,,0.011714993,,0.0020245751,,,0
+131,GNE_SNR_TKEO,GNE,0.024159484,,,-0.0041909334,,0.0019959519,,,0
+132,tqwt_TKEO_mean_dec_1,TQWT (TKEO),0.024013566,,,0.004679006,,0.0019838968,,,0
+133,tqwt_kurtosisValue_dec_18,TQWT (kurtosisValue),0.023617951,,,0.009362642,,0.0019512129,,,0
+134,DFA,Baseline / glottal quotient,0.023433508,,,0.009841849,,0.0019359749,,,0
+135,tqwt_meanValue_dec_17,TQWT (meanValue),0.023270324,,,-0.0006879418,,0.0019224933,,,0
+136,tqwt_entropy_log_dec_24,TQWT (entropy),0.022826264,,,0.0042015444,,0.001885807,,,0
+137,tqwt_skewnessValue_dec_21,TQWT (skewnessValue),0.022659771,,,-0.002515447,,0.0018720522,,,0
+138,b4,Formant bandwidth,0.022212913,,,-0.00024846848,,0.0018351347,,,1
+139,std_delta_log_energy,MFCC delta,0.021886487,,,0.00021489266,,0.0018081667,,,1
+140,tqwt_maxValue_dec_19,TQWT (maxValue),0.02145459,,,0.007740691,,0.0017724852,,,0
+141,tqwt_skewnessValue_dec_4,TQWT (skewnessValue),0.021422287,,,0.0030569409,,0.0017698166,,,0
+142,tqwt_medianValue_dec_10,TQWT (medianValue),0.021083245,,,0.0028409814,,0.0017418064,,,0
+143,mean_8th_delta,MFCC delta,0.020969335,,,-0.00036142027,,0.0017323956,,,0
+144,tqwt_skewnessValue_dec_7,TQWT (skewnessValue),0.02089863,,,0.0041257995,,0.0017265544,,,0
+145,det_entropy_shannon_10_coef,Wavelet / entropy / TKEO,0.020703416,,,0.0010059741,,0.0017104266,,,0
+146,tqwt_energy_dec_10,TQWT (energy),0.020624,,,0.0014597938,,0.0017038656,,,0
+147,tqwt_minValue_dec_17,TQWT (minValue),0.020499855,,,0.0048089204,,0.0016936093,,,0
+148,tqwt_meanValue_dec_25,TQWT (meanValue),0.020351434,,,0.00023816327,,0.0016813474,,,0
+149,tqwt_meanValue_dec_32,TQWT (meanValue),0.020347105,,,0.0032554113,,0.0016809897,,,0
+150,std_Log_energy,Log-energy,0.020331753,,,-0.0004512691,,0.0016797214,,,0
+151,std_10th_delta,MFCC delta,0.01997737,,,0.0044344766,,0.0016504438,,,1
+152,mean_MFCC_10th_coef,MFCC,0.019967772,,,-0.00017887597,,0.0016496509,,,0
+153,tqwt_meanValue_dec_18,TQWT (meanValue),0.019630931,,,-0.0020588702,,0.0016218225,,,0
+154,app_LT_entropy_log_4_coef,Wavelet / entropy / TKEO,0.01940763,,,0.0049551167,,0.0016033744,,,0
+155,tqwt_energy_dec_19,TQWT (energy),0.01935248,,,-0.0034343589,,0.0015988181,,,0
+156,tqwt_skewnessValue_dec_28,TQWT (skewnessValue),0.019306442,,,0.0032790299,,0.0015950146,,,0
+157,det_LT_entropy_shannon_5_coef,Wavelet / entropy / TKEO,0.018865978,,,0.0005252897,,0.0015586254,,,0
+158,tqwt_medianValue_dec_13,TQWT (medianValue),0.018721733,,,0.0035226813,,0.0015467085,,,0
+159,tqwt_entropy_log_dec_12,TQWT (entropy),0.018466396,,,0.0069638225,,0.0015256137,,,0
+160,tqwt_entropy_shannon_dec_32,TQWT (entropy),0.018375965,,,-0.0021515535,,0.0015181426,,,0
+161,tqwt_meanValue_dec_3,TQWT (meanValue),0.018316679,,,0.0012156665,,0.0015132447,,,0
+162,app_LT_TKEO_std_5_coef,Wavelet / entropy / TKEO,0.018162843,,,0.0035802608,,0.0015005354,,,0
+163,tqwt_kurtosisValue_dec_11,TQWT (kurtosisValue),0.018042644,,,0.0016598123,,0.0014906052,,,0
+164,tqwt_minValue_dec_24,TQWT (minValue),0.017919704,,,0.0019911742,,0.0014804484,,,0
+165,mean_7th_delta,MFCC delta,0.01776805,,,0.0036587287,,0.0014679193,,,0
+166,app_LT_TKEO_mean_1_coef,Wavelet / entropy / TKEO,0.0174664,,,0.007336663,,0.0014429983,,,0
+167,mean_10th_delta,MFCC delta,0.017340323,,,0.0010418933,,0.0014325824,,,0
+168,tqwt_energy_dec_17,TQWT (energy),0.0173245,,,0.00388398,,0.0014312752,,,0
+169,std_5th_delta,MFCC delta,0.017163845,,,0.008072894,,0.0014180025,,,0
+170,tqwt_skewnessValue_dec_18,TQWT (skewnessValue),0.017144421,,,-0.002677158,,0.0014163979,,,0
+171,det_LT_TKEO_mean_1_coef,Wavelet / entropy / TKEO,0.01709382,,,0.0040495787,,0.0014122174,,,0
+172,tqwt_medianValue_dec_32,TQWT (medianValue),0.01690023,,,0.0053452244,,0.0013962238,,,0
+173,tqwt_TKEO_std_dec_20,TQWT (TKEO),0.01653183,,,0.004370608,,0.0013657883,,,0
+174,tqwt_skewnessValue_dec_16,TQWT (skewnessValue),0.016175086,,,-0.0004030577,,0.0013363155,,,0
+175,tqwt_TKEO_std_dec_17,TQWT (TKEO),0.016009297,,,0.002157454,,0.0013226188,,,0
+176,tqwt_maxValue_dec_21,TQWT (maxValue),0.015953248,,,0.0030935383,,0.0013179883,,,0
+177,tqwt_stdValue_dec_26,TQWT (stdValue),0.015862389,,,0.006381689,,0.0013104818,,,0
+178,tqwt_maxValue_dec_11,TQWT (maxValue),0.015661687,,,-0.0046250387,,0.0012939008,,,0
+179,tqwt_meanValue_dec_19,TQWT (meanValue),0.01564589,,,0.0042934287,,0.0012925956,,,0
+180,tqwt_meanValue_dec_15,TQWT (meanValue),0.015503824,,,0.0043445774,,0.0012808588,,,0
+181,tqwt_minValue_dec_5,TQWT (minValue),0.015482159,,,-0.00045144564,,0.001279069,,,0
+182,tqwt_entropy_shannon_dec_16,TQWT (entropy),0.01541141,,,-0.006042822,,0.0012732239,,,0
+183,Ed2_7_coef,Wavelet / entropy / TKEO,0.015111625,,,-0.0012482057,,0.001248457,,,0
+184,det_LT_entropy_shannon_9_coef,Wavelet / entropy / TKEO,0.015086183,,,0.0023902524,,0.0012463551,,,0
+185,tqwt_TKEO_std_dec_12,TQWT (TKEO),0.014854466,,,0.006665515,,0.0012272117,,,1
+186,IMF_SNR_entropy,IMF,0.014547348,,,0.0022685113,,0.0012018388,,,0
+187,tqwt_TKEO_mean_dec_17,TQWT (TKEO),0.01449445,,,0.0022626454,,0.0011974687,,,0
+188,tqwt_TKEO_mean_dec_20,TQWT (TKEO),0.014409912,,,0.0010405487,,0.0011904845,,,0
+189,std_delta_delta_0th,MFCC delta-delta,0.01411793,,,-0.0007030921,,0.0011663622,,,0
+190,std_MFCC_8th_coef,MFCC,0.013867101,,,0.0061351405,,0.0011456398,,,0
+191,det_LT_entropy_log_6_coef,Wavelet / entropy / TKEO,0.013749246,,,0.0009828412,,0.0011359032,,,0
+192,meanIntensity,Intensity,0.013622663,,,0.0010614595,,0.0011254455,,,0
+193,tqwt_entropy_log_dec_10,TQWT (entropy),0.013513906,,,0.0010157671,,0.0011164604,,,0
+194,f4,Formant frequency,0.013374255,,,-0.001110522,,0.0011049231,,,0
+195,locAbsJitter,Jitter/Shimmer,0.013359669,,,0.0034557658,,0.001103718,,,0
+196,tqwt_TKEO_mean_dec_30,TQWT (TKEO),0.013007467,,,-0.00558762,,0.0010746205,,,0
+197,mean_MFCC_12th_coef,MFCC,0.012827094,,,-0.00355671,,0.0010597189,,,0
+198,mean_8th_delta_delta,MFCC delta-delta,0.012549327,,,0.0019015381,,0.001036771,,,0
+199,tqwt_energy_dec_3,TQWT (energy),0.012303493,,,-0.0009279517,,0.0010164613,,,0
+200,tqwt_meanValue_dec_14,TQWT (meanValue),0.012183196,,,-0.0015168934,,0.0010065229,,,0
+201,tqwt_stdValue_dec_30,TQWT (stdValue),0.011861089,,,-0.0032223829,,0.0009799118,,,0
+202,tqwt_kurtosisValue_dec_25,TQWT (kurtosisValue),0.011839335,,,0.0024614555,,0.0009781145,,,0
+203,tqwt_kurtosisValue_dec_34,TQWT (kurtosisValue),0.01176275,,,0.0014004986,,0.0009717875,,,0
+204,tqwt_minValue_dec_32,TQWT (minValue),0.011469905,,,-0.001513254,,0.0009475939,,,0
+205,tqwt_stdValue_dec_17,TQWT (stdValue),0.011219022,,,0.0026552498,,0.000926867,,,0
+206,tqwt_entropy_shannon_dec_22,TQWT (entropy),0.011027276,,,4.5539873e-05,,0.00091102574,,,0
+207,det_LT_entropy_log_2_coef,Wavelet / entropy / TKEO,0.010984544,,,0.0031077885,,0.00090749544,,,0
+208,tqwt_maxValue_dec_22,TQWT (maxValue),0.010529979,,,0.0038265586,,0.00086994126,,,0
+209,det_LT_entropy_shannon_2_coef,Wavelet / entropy / TKEO,0.010436016,,,0.00015217392,,0.00086217845,,,0
+210,tqwt_medianValue_dec_16,TQWT (medianValue),0.01020107,,,0.0059873792,,0.00084276823,,,0
+211,tqwt_medianValue_dec_21,TQWT (medianValue),0.010186362,,,0.004938096,,0.0008415531,,,0
+212,tqwt_meanValue_dec_6,TQWT (meanValue),0.01017687,,,-0.0055777887,,0.0008407689,,,0
+213,locDbShimmer,Jitter/Shimmer,0.010022475,,,0.0021649702,,0.0008280135,,,0
+214,tqwt_medianValue_dec_11,TQWT (medianValue),0.00913698,,,-0.0015988826,,0.0007548577,,,0
+215,tqwt_skewnessValue_dec_5,TQWT (skewnessValue),0.0090451,,,-0.00058008847,,0.000747267,,,0
+216,tqwt_energy_dec_33,TQWT (energy),0.008885062,,,0.001835786,,0.00073404534,,,0
+217,tqwt_TKEO_mean_dec_4,TQWT (TKEO),0.008842208,,,-0.0028486995,,0.000730505,,,0
+218,tqwt_medianValue_dec_23,TQWT (medianValue),0.008697835,,,0.0018512824,,0.0007185774,,,0
+219,tqwt_medianValue_dec_29,TQWT (medianValue),0.008150417,,,0.00290494,,0.00067335216,,,0
+220,tqwt_minValue_dec_19,TQWT (minValue),0.008050741,,,0.0024099506,,0.00066511735,,,0
+221,tqwt_medianValue_dec_14,TQWT (medianValue),0.008049106,,,-0.0025132382,,0.0006649823,,,0
+222,Ed_1_coef,Wavelet / entropy / TKEO,0.007996576,,,0.0016624267,,0.00066064246,,,0
+223,tqwt_skewnessValue_dec_32,TQWT (skewnessValue),0.007891979,,,-0.0011033065,,0.0006520011,,,0
+224,tqwt_kurtosisValue_dec_6,TQWT (kurtosisValue),0.007878566,,,0.0013712848,,0.000650893,,,0
+225,tqwt_minValue_dec_10,TQWT (minValue),0.007838943,,,0.0031732472,,0.00064761954,,,0
+226,b2,Formant bandwidth,0.007570499,,,-0.0021178054,,0.00062544184,,,0
+227,GNE_mean,GNE,0.0075177327,,,0.0027021945,,0.0006210825,,,0
+228,det_LT_TKEO_mean_3_coef,Wavelet / entropy / TKEO,0.0074165505,,,0.0017159098,,0.0006127233,,,0
+229,mean_9th_delta,MFCC delta,0.007370475,,,0.0016075914,,0.00060891674,,,0
+230,mean_11th_delta,MFCC delta,0.0072211446,,,-0.00096389436,,0.0005965797,,,0
+231,mean_12th_delta,MFCC delta,0.006777775,,,-0.00072679156,,0.0005599504,,,0
+232,det_entropy_shannon_8_coef,Wavelet / entropy / TKEO,0.006762344,,,0.0028221256,,0.00055867556,,,0
+233,VFER_NSR_TKEO,VFER,0.006738805,,,-0.0030873786,,0.0005567309,,,0
+234,tqwt_TKEO_std_dec_18,TQWT (TKEO),0.0066293036,,,-0.00010361759,,0.0005476843,,,0
+235,tqwt_entropy_log_dec_19,TQWT (entropy),0.00660839,,,0.003491415,,0.00054595654,,,0
+236,GNE_std,GNE,0.006285326,,,0.0022471447,,0.0005192664,,,0
+237,tqwt_skewnessValue_dec_11,TQWT (skewnessValue),0.0060531884,,,0.00064616057,,0.0005000882,,,0
+238,mean_delta_log_energy,MFCC delta,0.0056269504,,,0.00071442814,,0.00046487426,,,0
+239,tqwt_entropy_log_dec_29,TQWT (entropy),0.0055940137,,,-0.0007011194,,0.0004621532,,,0
+240,tqwt_skewnessValue_dec_29,TQWT (skewnessValue),0.0055556297,,,0.00065060763,,0.00045898207,,,0
+241,tqwt_TKEO_std_dec_35,TQWT (TKEO),0.005332687,,,0.0002563933,,0.0004405635,,,0
+242,det_LT_entropy_log_9_coef,Wavelet / entropy / TKEO,0.005054474,,,-0.0011248299,,0.00041757873,,,0
+243,det_LT_entropy_log_4_coef,Wavelet / entropy / TKEO,0.004928781,,,-0.0018080524,,0.00040719454,,,0
+244,std_MFCC_10th_coef,MFCC,0.0035877354,,,0.00043652655,,0.00029640316,,,0
+245,tqwt_maxValue_dec_10,TQWT (maxValue),0.003405458,,,-0.0025686629,,0.0002813442,,,0
+246,tqwt_kurtosisValue_dec_24,TQWT (kurtosisValue),0.0,,,0.0,,0.0,,,1
+247,tqwt_kurtosisValue_dec_26,TQWT (kurtosisValue),0.0,,,0.0,,0.0,,,0
+248,tqwt_kurtosisValue_dec_28,TQWT (kurtosisValue),0.0,,,0.0,,0.0,,,0
+249,tqwt_kurtosisValue_dec_29,TQWT (kurtosisValue),0.0,,,0.0,,0.0,,,0
+250,tqwt_kurtosisValue_dec_14,TQWT (kurtosisValue),0.0,,,0.0,,0.0,,,0
+251,tqwt_kurtosisValue_dec_16,TQWT (kurtosisValue),0.0,,,0.0,,0.0,,,0
+252,tqwt_kurtosisValue_dec_17,TQWT (kurtosisValue),0.0,,,0.0,,0.0,,,1
+253,tqwt_kurtosisValue_dec_19,TQWT (kurtosisValue),0.0,,,0.0,,0.0,,,0
+254,tqwt_kurtosisValue_dec_8,TQWT (kurtosisValue),0.0,,,0.0,,0.0,,,0
+255,tqwt_kurtosisValue_dec_9,TQWT (kurtosisValue),0.0,,,0.0,,0.0,,,0
+256,tqwt_kurtosisValue_dec_12,TQWT (kurtosisValue),0.0,,,0.0,,0.0,,,0
+257,tqwt_kurtosisValue_dec_13,TQWT (kurtosisValue),0.0,,,0.0,,0.0,,,0
+258,tqwt_skewnessValue_dec_34,TQWT (skewnessValue),0.0,,,0.0,,0.0,,,0
+259,tqwt_skewnessValue_dec_35,TQWT (skewnessValue),0.0,,,0.0,,0.0,,,0
+260,tqwt_skewnessValue_dec_36,TQWT (skewnessValue),0.0,,,0.0,,0.0,,,0
+261,tqwt_kurtosisValue_dec_1,TQWT (kurtosisValue),0.0,,,0.0,,0.0,,,0
+262,tqwt_kurtosisValue_dec_2,TQWT (kurtosisValue),0.0,,,0.0,,0.0,,,0
+263,tqwt_kurtosisValue_dec_3,TQWT (kurtosisValue),0.0,,,0.0,,0.0,,,0
+264,tqwt_kurtosisValue_dec_4,TQWT (kurtosisValue),0.0,,,0.0,,0.0,,,0
+265,GQ_std_cycle_open,Baseline / glottal quotient,0.0,,,0.0,,0.0,,,0
+266,GQ_std_cycle_closed,Baseline / glottal quotient,0.0,,,0.0,,0.0,,,0
+267,GNE_SNR_SEO,GNE,0.0,,,0.0,,0.0,,,0
+268,f2,Formant frequency,0.0,,,0.0,,0.0,,,0
+269,b1,Formant bandwidth,0.0,,,0.0,,0.0,,,0
+270,b3,Formant bandwidth,0.0,,,0.0,,0.0,,,0
+271,GQ_prc5_95,Baseline / glottal quotient,0.0,,,0.0,,0.0,,,0
+272,ddaShimmer,Jitter/Shimmer,0.0,,,0.0,,0.0,,,0
+273,meanAutoCorrHarmonicity,Harmonicity,0.0,,,0.0,,0.0,,,0
+274,meanNoiseToHarmHarmonicity,Harmonicity,0.0,,,0.0,,0.0,,,0
+275,meanHarmToNoiseHarmonicity,Harmonicity,0.0,,,0.0,,0.0,,,0
+276,maxIntensity,Intensity,0.0,,,0.0,,0.0,,,0
+277,tqwt_kurtosisValue_dec_30,TQWT (kurtosisValue),0.0,,,0.0,,0.0,,,0
+278,ppq5Jitter,Jitter/Shimmer,0.0,,,0.0,,0.0,,,0
+279,ddpJitter,Jitter/Shimmer,0.0,,,0.0,,0.0,,,0
+280,locShimmer,Jitter/Shimmer,0.0,,,0.0,,0.0,,,0
+281,apq3Shimmer,Jitter/Shimmer,0.0,,,0.0,,0.0,,,0
+282,apq5Shimmer,Jitter/Shimmer,0.0,,,0.0,,0.0,,,0
+283,apq11Shimmer,Jitter/Shimmer,0.0,,,0.0,,0.0,,,0
+284,app_LT_entropy_shannon_10_coef,Wavelet / entropy / TKEO,0.0,,,0.0,,0.0,,,0
+285,app_LT_entropy_log_1_coef,Wavelet / entropy / TKEO,0.0,,,0.0,,0.0,,,0
+286,app_LT_entropy_log_2_coef,Wavelet / entropy / TKEO,0.0,,,0.0,,0.0,,,0
+287,app_LT_entropy_log_3_coef,Wavelet / entropy / TKEO,0.0,,,0.0,,0.0,,,0
+288,app_LT_entropy_log_5_coef,Wavelet / entropy / TKEO,0.0,,,0.0,,0.0,,,0
+289,app_LT_entropy_log_6_coef,Wavelet / entropy / TKEO,0.0,,,0.0,,0.0,,,0
+290,app_LT_entropy_log_7_coef,Wavelet / entropy / TKEO,0.0,,,0.0,,0.0,,,0
+291,app_LT_entropy_shannon_2_coef,Wavelet / entropy / TKEO,0.0,,,0.0,,0.0,,,0
+292,app_LT_entropy_shannon_3_coef,Wavelet / entropy / TKEO,0.0,,,0.0,,0.0,,,0
+293,app_LT_entropy_shannon_4_coef,Wavelet / entropy / TKEO,0.0,,,0.0,,0.0,,,0
+294,app_LT_entropy_shannon_5_coef,Wavelet / entropy / TKEO,0.0,,,0.0,,0.0,,,0
+295,app_LT_entropy_shannon_6_coef,Wavelet / entropy / TKEO,0.0,,,0.0,,0.0,,,0
+296,app_LT_entropy_shannon_7_coef,Wavelet / entropy / TKEO,0.0,,,0.0,,0.0,,,0
+297,app_LT_entropy_shannon_8_coef,Wavelet / entropy / TKEO,0.0,,,0.0,,0.0,,,0
+298,app_LT_entropy_shannon_9_coef,Wavelet / entropy / TKEO,0.0,,,0.0,,0.0,,,0
+299,det_LT_TKEO_std_4_coef,Wavelet / entropy / TKEO,0.0,,,0.0,,0.0,,,0
+300,det_LT_TKEO_std_5_coef,Wavelet / entropy / TKEO,0.0,,,0.0,,0.0,,,0
+301,det_LT_TKEO_std_6_coef,Wavelet / entropy / TKEO,0.0,,,0.0,,0.0,,,0
+302,det_LT_TKEO_std_7_coef,Wavelet / entropy / TKEO,0.0,,,0.0,,0.0,,,0
+303,det_LT_TKEO_std_8_coef,Wavelet / entropy / TKEO,0.0,,,0.0,,0.0,,,0
+304,det_LT_TKEO_std_9_coef,Wavelet / entropy / TKEO,0.0,,,0.0,,0.0,,,0
+305,det_LT_TKEO_std_10_coef,Wavelet / entropy / TKEO,0.0,,,0.0,,0.0,,,0
+306,app_LT_entropy_shannon_1_coef,Wavelet / entropy / TKEO,0.0,,,0.0,,0.0,,,0
+307,det_LT_TKEO_mean_6_coef,Wavelet / entropy / TKEO,0.0,,,0.0,,0.0,,,0
+308,det_LT_TKEO_mean_7_coef,Wavelet / entropy / TKEO,0.0,,,0.0,,0.0,,,0
+309,det_LT_TKEO_mean_8_coef,Wavelet / entropy / TKEO,0.0,,,0.0,,0.0,,,0
+310,det_LT_TKEO_mean_9_coef,Wavelet / entropy / TKEO,0.0,,,0.0,,0.0,,,0
+311,det_LT_TKEO_mean_10_coef,Wavelet / entropy / TKEO,0.0,,,0.0,,0.0,,,0
+312,det_LT_TKEO_std_1_coef,Wavelet / entropy / TKEO,0.0,,,0.0,,0.0,,,0
+313,det_LT_TKEO_std_2_coef,Wavelet / entropy / TKEO,0.0,,,0.0,,0.0,,,0
+314,det_LT_TKEO_std_3_coef,Wavelet / entropy / TKEO,0.0,,,0.0,,0.0,,,0
+315,tqwt_energy_dec_2,TQWT (energy),0.0,,,0.0,,0.0,,,0
+316,tqwt_energy_dec_4,TQWT (energy),0.0,,,0.0,,0.0,,,0
+317,tqwt_energy_dec_5,TQWT (energy),0.0,,,0.0,,0.0,,,0
+318,tqwt_energy_dec_6,TQWT (energy),0.0,,,0.0,,0.0,,,1
+319,tqwt_energy_dec_8,TQWT (energy),0.0,,,0.0,,0.0,,,0
+320,tqwt_energy_dec_9,TQWT (energy),0.0,,,0.0,,0.0,,,0
+321,app_LT_TKEO_std_4_coef,Wavelet / entropy / TKEO,0.0,,,0.0,,0.0,,,0
+322,app_LT_TKEO_std_6_coef,Wavelet / entropy / TKEO,0.0,,,0.0,,0.0,,,0
+323,app_LT_TKEO_std_7_coef,Wavelet / entropy / TKEO,0.0,,,0.0,,0.0,,,0
+324,app_LT_TKEO_std_8_coef,Wavelet / entropy / TKEO,0.0,,,0.0,,0.0,,,0
+325,app_LT_TKEO_std_9_coef,Wavelet / entropy / TKEO,0.0,,,0.0,,0.0,,,0
+326,app_LT_TKEO_std_10_coef,Wavelet / entropy / TKEO,0.0,,,0.0,,0.0,,,0
+327,tqwt_energy_dec_1,TQWT (energy),0.0,,,0.0,,0.0,,,0
+328,app_LT_TKEO_mean_6_coef,Wavelet / entropy / TKEO,0.0,,,0.0,,0.0,,,0
+329,app_LT_TKEO_mean_7_coef,Wavelet / entropy / TKEO,0.0,,,0.0,,0.0,,,0
+330,app_LT_TKEO_mean_8_coef,Wavelet / entropy / TKEO,0.0,,,0.0,,0.0,,,0
+331,app_LT_TKEO_mean_9_coef,Wavelet / entropy / TKEO,0.0,,,0.0,,0.0,,,0
+332,app_LT_TKEO_mean_10_coef,Wavelet / entropy / TKEO,0.0,,,0.0,,0.0,,,0
+333,app_LT_TKEO_std_1_coef,Wavelet / entropy / TKEO,0.0,,,0.0,,0.0,,,0
+334,app_LT_TKEO_std_2_coef,Wavelet / entropy / TKEO,0.0,,,0.0,,0.0,,,0
+335,app_LT_TKEO_std_3_coef,Wavelet / entropy / TKEO,0.0,,,0.0,,0.0,,,0
+336,app_LT_entropy_log_8_coef,Wavelet / entropy / TKEO,0.0,,,0.0,,0.0,,,0
+337,app_LT_entropy_log_9_coef,Wavelet / entropy / TKEO,0.0,,,0.0,,0.0,,,0
+338,app_LT_entropy_log_10_coef,Wavelet / entropy / TKEO,0.0,,,0.0,,0.0,,,0
+339,app_LT_TKEO_mean_2_coef,Wavelet / entropy / TKEO,0.0,,,0.0,,0.0,,,0
+340,app_LT_TKEO_mean_3_coef,Wavelet / entropy / TKEO,0.0,,,0.0,,0.0,,,0
+341,app_LT_TKEO_mean_4_coef,Wavelet / entropy / TKEO,0.0,,,0.0,,0.0,,,0
+342,app_LT_TKEO_mean_5_coef,Wavelet / entropy / TKEO,0.0,,,0.0,,0.0,,,0
+343,det_LT_entropy_log_8_coef,Wavelet / entropy / TKEO,0.0,,,0.0,,0.0,,,0
+344,det_LT_entropy_log_10_coef,Wavelet / entropy / TKEO,0.0,,,0.0,,0.0,,,0
+345,det_LT_TKEO_mean_2_coef,Wavelet / entropy / TKEO,0.0,,,0.0,,0.0,,,0
+346,det_LT_TKEO_mean_4_coef,Wavelet / entropy / TKEO,0.0,,,0.0,,0.0,,,0
+347,det_LT_entropy_shannon_10_coef,Wavelet / entropy / TKEO,0.0,,,0.0,,0.0,,,0
+348,det_LT_entropy_log_1_coef,Wavelet / entropy / TKEO,0.0,,,0.0,,0.0,,,0
+349,det_LT_entropy_log_3_coef,Wavelet / entropy / TKEO,0.0,,,0.0,,0.0,,,0
+350,det_LT_entropy_log_7_coef,Wavelet / entropy / TKEO,0.0,,,0.0,,0.0,,,0
+351,det_LT_entropy_shannon_3_coef,Wavelet / entropy / TKEO,0.0,,,0.0,,0.0,,,0
+352,det_LT_entropy_shannon_4_coef,Wavelet / entropy / TKEO,0.0,,,0.0,,0.0,,,0
+353,det_LT_entropy_shannon_6_coef,Wavelet / entropy / TKEO,0.0,,,0.0,,0.0,,,0
+354,det_LT_entropy_shannon_7_coef,Wavelet / entropy / TKEO,0.0,,,0.0,,0.0,,,0
+355,det_LT_entropy_shannon_8_coef,Wavelet / entropy / TKEO,0.0,,,0.0,,0.0,,,0
+356,Ed2_4_coef,Wavelet / entropy / TKEO,0.0,,,0.0,,0.0,,,0
+357,Ed2_5_coef,Wavelet / entropy / TKEO,0.0,,,0.0,,0.0,,,0
+358,Ed2_6_coef,Wavelet / entropy / TKEO,0.0,,,0.0,,0.0,,,0
+359,Ed2_8_coef,Wavelet / entropy / TKEO,0.0,,,0.0,,0.0,,,0
+360,Ed2_9_coef,Wavelet / entropy / TKEO,0.0,,,0.0,,0.0,,,0
+361,Ed2_10_coef,Wavelet / entropy / TKEO,0.0,,,0.0,,0.0,,,0
+362,det_LT_entropy_shannon_1_coef,Wavelet / entropy / TKEO,0.0,,,0.0,,0.0,,,0
+363,tqwt_energy_dec_34,TQWT (energy),0.0,,,0.0,,0.0,,,0
+364,tqwt_energy_dec_36,TQWT (energy),0.0,,,0.0,,0.0,,,0
+365,tqwt_entropy_shannon_dec_1,TQWT (entropy),0.0,,,0.0,,0.0,,,0
+366,tqwt_entropy_shannon_dec_2,TQWT (entropy),0.0,,,0.0,,0.0,,,0
+367,tqwt_entropy_shannon_dec_3,TQWT (entropy),0.0,,,0.0,,0.0,,,0
+368,tqwt_entropy_shannon_dec_4,TQWT (entropy),0.0,,,0.0,,0.0,,,0
+369,tqwt_entropy_shannon_dec_5,TQWT (entropy),0.0,,,0.0,,0.0,,,0
+370,tqwt_energy_dec_27,TQWT (energy),0.0,,,0.0,,0.0,,,0
+371,tqwt_energy_dec_29,TQWT (energy),0.0,,,0.0,,0.0,,,0
+372,tqwt_energy_dec_30,TQWT (energy),0.0,,,0.0,,0.0,,,0
+373,tqwt_energy_dec_31,TQWT (energy),0.0,,,0.0,,0.0,,,0
+374,tqwt_energy_dec_32,TQWT (energy),0.0,,,0.0,,0.0,,,0
+375,tqwt_energy_dec_18,TQWT (energy),0.0,,,0.0,,0.0,,,0
+376,tqwt_energy_dec_20,TQWT (energy),0.0,,,0.0,,0.0,,,0
+377,tqwt_energy_dec_22,TQWT (energy),0.0,,,0.0,,0.0,,,0
+378,tqwt_energy_dec_23,TQWT (energy),0.0,,,0.0,,0.0,,,0
+379,tqwt_energy_dec_24,TQWT (energy),0.0,,,0.0,,0.0,,,0
+380,tqwt_energy_dec_13,TQWT (energy),0.0,,,0.0,,0.0,,,0
+381,tqwt_energy_dec_14,TQWT (energy),0.0,,,0.0,,0.0,,,0
+382,tqwt_energy_dec_15,TQWT (energy),0.0,,,0.0,,0.0,,,0
+383,tqwt_entropy_shannon_dec_30,TQWT (entropy),0.0,,,0.0,,0.0,,,0
+384,tqwt_entropy_shannon_dec_31,TQWT (entropy),0.0,,,0.0,,0.0,,,0
+385,tqwt_entropy_shannon_dec_33,TQWT (entropy),0.0,,,0.0,,0.0,,,0
+386,tqwt_entropy_shannon_dec_35,TQWT (entropy),0.0,,,0.0,,0.0,,,0
+387,tqwt_entropy_shannon_dec_23,TQWT (entropy),0.0,,,0.0,,0.0,,,0
+388,tqwt_entropy_shannon_dec_24,TQWT (entropy),0.0,,,0.0,,0.0,,,0
+389,tqwt_entropy_shannon_dec_26,TQWT (entropy),0.0,,,0.0,,0.0,,,0
+390,tqwt_entropy_shannon_dec_27,TQWT (entropy),0.0,,,0.0,,0.0,,,0
+391,tqwt_entropy_shannon_dec_28,TQWT (entropy),0.0,,,0.0,,0.0,,,0
+392,tqwt_entropy_shannon_dec_29,TQWT (entropy),0.0,,,0.0,,0.0,,,0
+393,tqwt_entropy_shannon_dec_14,TQWT (entropy),0.0,,,0.0,,0.0,,,0
+394,tqwt_entropy_shannon_dec_15,TQWT (entropy),0.0,,,0.0,,0.0,,,0
+395,tqwt_entropy_shannon_dec_17,TQWT (entropy),0.0,,,0.0,,0.0,,,0
+396,tqwt_entropy_shannon_dec_18,TQWT (entropy),0.0,,,0.0,,0.0,,,0
+397,tqwt_entropy_shannon_dec_19,TQWT (entropy),0.0,,,0.0,,0.0,,,0
+398,tqwt_entropy_shannon_dec_20,TQWT (entropy),0.0,,,0.0,,0.0,,,0
+399,tqwt_entropy_shannon_dec_21,TQWT (entropy),0.0,,,0.0,,0.0,,,0
+400,tqwt_entropy_shannon_dec_6,TQWT (entropy),0.0,,,0.0,,0.0,,,0
+401,tqwt_entropy_shannon_dec_7,TQWT (entropy),0.0,,,0.0,,0.0,,,0
+402,tqwt_entropy_shannon_dec_8,TQWT (entropy),0.0,,,0.0,,0.0,,,0
+403,tqwt_entropy_shannon_dec_9,TQWT (entropy),0.0,,,0.0,,0.0,,,0
+404,tqwt_entropy_shannon_dec_10,TQWT (entropy),0.0,,,0.0,,0.0,,,0
+405,tqwt_entropy_shannon_dec_11,TQWT (entropy),0.0,,,0.0,,0.0,,,0
+406,tqwt_entropy_shannon_dec_13,TQWT (entropy),0.0,,,0.0,,0.0,,,0
+407,tqwt_entropy_log_dec_26,TQWT (entropy),0.0,,,0.0,,0.0,,,0
+408,tqwt_entropy_log_dec_28,TQWT (entropy),0.0,,,0.0,,0.0,,,0
+409,tqwt_entropy_log_dec_30,TQWT (entropy),0.0,,,0.0,,0.0,,,0
+410,tqwt_entropy_log_dec_31,TQWT (entropy),0.0,,,0.0,,0.0,,,0
+411,tqwt_entropy_log_dec_18,TQWT (entropy),0.0,,,0.0,,0.0,,,0
+412,tqwt_entropy_log_dec_20,TQWT (entropy),0.0,,,0.0,,0.0,,,0
+413,tqwt_entropy_log_dec_21,TQWT (entropy),0.0,,,0.0,,0.0,,,0
+414,tqwt_entropy_log_dec_22,TQWT (entropy),0.0,,,0.0,,0.0,,,0
+415,tqwt_entropy_log_dec_23,TQWT (entropy),0.0,,,0.0,,0.0,,,0
+416,tqwt_entropy_log_dec_13,TQWT (entropy),0.0,,,0.0,,0.0,,,0
+417,tqwt_entropy_log_dec_14,TQWT (entropy),0.0,,,0.0,,0.0,,,0
+418,tqwt_entropy_log_dec_15,TQWT (entropy),0.0,,,0.0,,0.0,,,0
+419,tqwt_entropy_log_dec_16,TQWT (entropy),0.0,,,0.0,,0.0,,,0
+420,tqwt_entropy_log_dec_17,TQWT (entropy),0.0,,,0.0,,0.0,,,0
+421,tqwt_entropy_log_dec_2,TQWT (entropy),0.0,,,0.0,,0.0,,,0
+422,tqwt_entropy_log_dec_3,TQWT (entropy),0.0,,,0.0,,0.0,,,0
+423,tqwt_entropy_log_dec_4,TQWT (entropy),0.0,,,0.0,,0.0,,,0
+424,tqwt_entropy_log_dec_5,TQWT (entropy),0.0,,,0.0,,0.0,,,0
+425,tqwt_entropy_log_dec_6,TQWT (entropy),0.0,,,0.0,,0.0,,,0
+426,tqwt_entropy_log_dec_7,TQWT (entropy),0.0,,,0.0,,0.0,,,0
+427,tqwt_entropy_log_dec_8,TQWT (entropy),0.0,,,0.0,,0.0,,,0
+428,tqwt_entropy_log_dec_9,TQWT (entropy),0.0,,,0.0,,0.0,,,0
+429,app_TKEO_std_7_coef,Wavelet / entropy / TKEO,0.0,,,0.0,,0.0,,,0
+430,app_TKEO_std_8_coef,Wavelet / entropy / TKEO,0.0,,,0.0,,0.0,,,0
+431,app_TKEO_std_9_coef,Wavelet / entropy / TKEO,0.0,,,0.0,,0.0,,,0
+432,app_TKEO_std_10_coef,Wavelet / entropy / TKEO,0.0,,,0.0,,0.0,,,0
+433,Ea2,Wavelet / entropy / TKEO,0.0,,,0.0,,0.0,,,0
+434,Ed2_1_coef,Wavelet / entropy / TKEO,0.0,,,0.0,,0.0,,,0
+435,Ed2_2_coef,Wavelet / entropy / TKEO,0.0,,,0.0,,0.0,,,0
+436,Ed2_3_coef,Wavelet / entropy / TKEO,0.0,,,0.0,,0.0,,,0
+437,app_det_TKEO_mean_9_coef,Wavelet / entropy / TKEO,0.0,,,0.0,,0.0,,,0
+438,app_det_TKEO_mean_10_coef,Wavelet / entropy / TKEO,0.0,,,0.0,,0.0,,,0
+439,app_TKEO_std_1_coef,Wavelet / entropy / TKEO,0.0,,,0.0,,0.0,,,0
+440,app_TKEO_std_2_coef,Wavelet / entropy / TKEO,0.0,,,0.0,,0.0,,,0
+441,app_TKEO_std_3_coef,Wavelet / entropy / TKEO,0.0,,,0.0,,0.0,,,0
+442,app_TKEO_std_4_coef,Wavelet / entropy / TKEO,0.0,,,0.0,,0.0,,,0
+443,app_TKEO_std_5_coef,Wavelet / entropy / TKEO,0.0,,,0.0,,0.0,,,0
+444,app_TKEO_std_6_coef,Wavelet / entropy / TKEO,0.0,,,0.0,,0.0,,,0
+445,app_det_TKEO_mean_1_coef,Wavelet / entropy / TKEO,0.0,,,0.0,,0.0,,,0
+446,app_det_TKEO_mean_2_coef,Wavelet / entropy / TKEO,0.0,,,0.0,,0.0,,,0
+447,app_det_TKEO_mean_3_coef,Wavelet / entropy / TKEO,0.0,,,0.0,,0.0,,,0
+448,app_det_TKEO_mean_4_coef,Wavelet / entropy / TKEO,0.0,,,0.0,,0.0,,,0
+449,app_det_TKEO_mean_5_coef,Wavelet / entropy / TKEO,0.0,,,0.0,,0.0,,,0
+450,app_det_TKEO_mean_6_coef,Wavelet / entropy / TKEO,0.0,,,0.0,,0.0,,,0
+451,app_det_TKEO_mean_7_coef,Wavelet / entropy / TKEO,0.0,,,0.0,,0.0,,,0
+452,app_det_TKEO_mean_8_coef,Wavelet / entropy / TKEO,0.0,,,0.0,,0.0,,,0
+453,app_entropy_log_3_coef,Wavelet / entropy / TKEO,0.0,,,0.0,,0.0,,,0
+454,app_entropy_log_4_coef,Wavelet / entropy / TKEO,0.0,,,0.0,,0.0,,,0
+455,app_entropy_log_5_coef,Wavelet / entropy / TKEO,0.0,,,0.0,,0.0,,,0
+456,app_entropy_log_6_coef,Wavelet / entropy / TKEO,0.0,,,0.0,,0.0,,,0
+457,app_entropy_log_7_coef,Wavelet / entropy / TKEO,0.0,,,0.0,,0.0,,,0
+458,app_entropy_log_8_coef,Wavelet / entropy / TKEO,0.0,,,0.0,,0.0,,,0
+459,app_entropy_log_9_coef,Wavelet / entropy / TKEO,0.0,,,0.0,,0.0,,,0
+460,app_entropy_log_10_coef,Wavelet / entropy / TKEO,0.0,,,0.0,,0.0,,,0
+461,tqwt_TKEO_mean_dec_22,TQWT (TKEO),0.0,,,0.0,,0.0,,,0
+462,tqwt_TKEO_mean_dec_23,TQWT (TKEO),0.0,,,0.0,,0.0,,,0
+463,tqwt_TKEO_mean_dec_24,TQWT (TKEO),0.0,,,0.0,,0.0,,,0
+464,tqwt_TKEO_mean_dec_26,TQWT (TKEO),0.0,,,0.0,,0.0,,,0
+465,tqwt_TKEO_mean_dec_27,TQWT (TKEO),0.0,,,0.0,,0.0,,,0
+466,tqwt_TKEO_mean_dec_28,TQWT (TKEO),0.0,,,0.0,,0.0,,,0
+467,tqwt_TKEO_mean_dec_29,TQWT (TKEO),0.0,,,0.0,,0.0,,,0
+468,tqwt_TKEO_mean_dec_14,TQWT (TKEO),0.0,,,0.0,,0.0,,,0
+469,tqwt_TKEO_mean_dec_15,TQWT (TKEO),0.0,,,0.0,,0.0,,,0
+470,tqwt_TKEO_mean_dec_16,TQWT (TKEO),0.0,,,0.0,,0.0,,,0
+471,tqwt_TKEO_mean_dec_18,TQWT (TKEO),0.0,,,0.0,,0.0,,,0
+472,tqwt_TKEO_mean_dec_19,TQWT (TKEO),0.0,,,0.0,,0.0,,,0
+473,tqwt_TKEO_mean_dec_21,TQWT (TKEO),0.0,,,0.0,,0.0,,,0
+474,tqwt_TKEO_mean_dec_6,TQWT (TKEO),0.0,,,0.0,,0.0,,,0
+475,tqwt_TKEO_mean_dec_7,TQWT (TKEO),0.0,,,0.0,,0.0,,,0
+476,tqwt_TKEO_mean_dec_8,TQWT (TKEO),0.0,,,0.0,,0.0,,,0
+477,tqwt_TKEO_mean_dec_9,TQWT (TKEO),0.0,,,0.0,,0.0,,,0
+478,tqwt_TKEO_mean_dec_10,TQWT (TKEO),0.0,,,0.0,,0.0,,,0
+479,tqwt_TKEO_mean_dec_13,TQWT (TKEO),0.0,,,0.0,,0.0,,,0
+480,tqwt_entropy_log_dec_34,TQWT (entropy),0.0,,,0.0,,0.0,,,0
+481,tqwt_entropy_log_dec_35,TQWT (entropy),0.0,,,0.0,,0.0,,,0
+482,tqwt_entropy_log_dec_36,TQWT (entropy),0.0,,,0.0,,0.0,,,0
+483,tqwt_TKEO_mean_dec_2,TQWT (TKEO),0.0,,,0.0,,0.0,,,0
+484,tqwt_TKEO_mean_dec_3,TQWT (TKEO),0.0,,,0.0,,0.0,,,0
+485,tqwt_TKEO_mean_dec_5,TQWT (TKEO),0.0,,,0.0,,0.0,,,0
+486,tqwt_TKEO_std_dec_22,TQWT (TKEO),0.0,,,0.0,,0.0,,,0
+487,tqwt_TKEO_std_dec_23,TQWT (TKEO),0.0,,,0.0,,0.0,,,0
+488,tqwt_TKEO_std_dec_24,TQWT (TKEO),0.0,,,0.0,,0.0,,,0
+489,tqwt_TKEO_std_dec_10,TQWT (TKEO),0.0,,,0.0,,0.0,,,0
+490,tqwt_TKEO_std_dec_14,TQWT (TKEO),0.0,,,0.0,,0.0,,,0
+491,tqwt_TKEO_std_dec_15,TQWT (TKEO),0.0,,,0.0,,0.0,,,0
+492,tqwt_TKEO_std_dec_2,TQWT (TKEO),0.0,,,0.0,,0.0,,,0
+493,tqwt_TKEO_std_dec_3,TQWT (TKEO),0.0,,,0.0,,0.0,,,0
+494,tqwt_TKEO_std_dec_4,TQWT (TKEO),0.0,,,0.0,,0.0,,,0
+495,tqwt_TKEO_std_dec_5,TQWT (TKEO),0.0,,,0.0,,0.0,,,0
+496,tqwt_TKEO_std_dec_6,TQWT (TKEO),0.0,,,0.0,,0.0,,,0
+497,tqwt_TKEO_std_dec_7,TQWT (TKEO),0.0,,,0.0,,0.0,,,0
+498,tqwt_TKEO_std_dec_9,TQWT (TKEO),0.0,,,0.0,,0.0,,,0
+499,tqwt_TKEO_mean_dec_32,TQWT (TKEO),0.0,,,0.0,,0.0,,,0
+500,tqwt_TKEO_mean_dec_33,TQWT (TKEO),0.0,,,0.0,,0.0,,,0
+501,tqwt_TKEO_mean_dec_34,TQWT (TKEO),0.0,,,0.0,,0.0,,,0
+502,tqwt_TKEO_mean_dec_35,TQWT (TKEO),0.0,,,0.0,,0.0,,,0
+503,tqwt_TKEO_mean_dec_36,TQWT (TKEO),0.0,,,0.0,,0.0,,,0
+504,tqwt_TKEO_std_dec_1,TQWT (TKEO),0.0,,,0.0,,0.0,,,0
+505,tqwt_medianValue_dec_15,TQWT (medianValue),0.0,,,0.0,,0.0,,,0
+506,tqwt_medianValue_dec_18,TQWT (medianValue),0.0,,,0.0,,0.0,,,0
+507,tqwt_medianValue_dec_19,TQWT (medianValue),0.0,,,0.0,,0.0,,,0
+508,tqwt_medianValue_dec_6,TQWT (medianValue),0.0,,,0.0,,0.0,,,0
+509,tqwt_medianValue_dec_9,TQWT (medianValue),0.0,,,0.0,,0.0,,,0
+510,tqwt_medianValue_dec_12,TQWT (medianValue),0.0,,,0.0,,0.0,,,0
+511,tqwt_TKEO_std_dec_34,TQWT (TKEO),0.0,,,0.0,,0.0,,,0
+512,tqwt_TKEO_std_dec_36,TQWT (TKEO),0.0,,,0.0,,0.0,,,0
+513,tqwt_medianValue_dec_2,TQWT (medianValue),0.0,,,0.0,,0.0,,,0
+514,tqwt_medianValue_dec_3,TQWT (medianValue),0.0,,,0.0,,0.0,,,0
+515,tqwt_medianValue_dec_5,TQWT (medianValue),0.0,,,0.0,,0.0,,,0
+516,tqwt_TKEO_std_dec_26,TQWT (TKEO),0.0,,,0.0,,0.0,,,0
+517,tqwt_TKEO_std_dec_27,TQWT (TKEO),0.0,,,0.0,,0.0,,,0
+518,tqwt_TKEO_std_dec_28,TQWT (TKEO),0.0,,,0.0,,0.0,,,0
+519,tqwt_TKEO_std_dec_29,TQWT (TKEO),0.0,,,0.0,,0.0,,,0
+520,tqwt_TKEO_std_dec_30,TQWT (TKEO),0.0,,,0.0,,0.0,,,0
+521,tqwt_TKEO_std_dec_31,TQWT (TKEO),0.0,,,0.0,,0.0,,,0
+522,tqwt_TKEO_std_dec_32,TQWT (TKEO),0.0,,,0.0,,0.0,,,0
+523,tqwt_TKEO_std_dec_33,TQWT (TKEO),0.0,,,0.0,,0.0,,,0
+524,app_entropy_shannon_5_coef,Wavelet / entropy / TKEO,0.0,,,0.0,,0.0,,,0
+525,app_entropy_shannon_6_coef,Wavelet / entropy / TKEO,0.0,,,0.0,,0.0,,,0
+526,app_entropy_shannon_7_coef,Wavelet / entropy / TKEO,0.0,,,0.0,,0.0,,,0
+527,app_entropy_shannon_8_coef,Wavelet / entropy / TKEO,0.0,,,0.0,,0.0,,,0
+528,app_entropy_shannon_9_coef,Wavelet / entropy / TKEO,0.0,,,0.0,,0.0,,,0
+529,app_entropy_shannon_10_coef,Wavelet / entropy / TKEO,0.0,,,0.0,,0.0,,,0
+530,app_entropy_log_1_coef,Wavelet / entropy / TKEO,0.0,,,0.0,,0.0,,,0
+531,app_entropy_log_2_coef,Wavelet / entropy / TKEO,0.0,,,0.0,,0.0,,,0
+532,det_TKEO_std_7_coef,Wavelet / entropy / TKEO,0.0,,,0.0,,0.0,,,0
+533,det_TKEO_std_8_coef,Wavelet / entropy / TKEO,0.0,,,0.0,,0.0,,,0
+534,det_TKEO_std_9_coef,Wavelet / entropy / TKEO,0.0,,,0.0,,0.0,,,0
+535,det_TKEO_std_10_coef,Wavelet / entropy / TKEO,0.0,,,0.0,,0.0,,,0
+536,app_entropy_shannon_1_coef,Wavelet / entropy / TKEO,0.0,,,0.0,,0.0,,,0
+537,app_entropy_shannon_2_coef,Wavelet / entropy / TKEO,0.0,,,0.0,,0.0,,,0
+538,app_entropy_shannon_3_coef,Wavelet / entropy / TKEO,0.0,,,0.0,,0.0,,,0
+539,app_entropy_shannon_4_coef,Wavelet / entropy / TKEO,0.0,,,0.0,,0.0,,,0
+540,det_TKEO_mean_9_coef,Wavelet / entropy / TKEO,0.0,,,0.0,,0.0,,,0
+541,det_TKEO_mean_10_coef,Wavelet / entropy / TKEO,0.0,,,0.0,,0.0,,,0
+542,det_TKEO_std_1_coef,Wavelet / entropy / TKEO,0.0,,,0.0,,0.0,,,0
+543,det_TKEO_std_2_coef,Wavelet / entropy / TKEO,0.0,,,0.0,,0.0,,,0
+544,det_TKEO_std_3_coef,Wavelet / entropy / TKEO,0.0,,,0.0,,0.0,,,0
+545,det_TKEO_std_4_coef,Wavelet / entropy / TKEO,0.0,,,0.0,,0.0,,,0
+546,det_TKEO_std_5_coef,Wavelet / entropy / TKEO,0.0,,,0.0,,0.0,,,0
+547,det_TKEO_std_6_coef,Wavelet / entropy / TKEO,0.0,,,0.0,,0.0,,,0
+548,det_TKEO_mean_2_coef,Wavelet / entropy / TKEO,0.0,,,0.0,,0.0,,,0
+549,det_TKEO_mean_3_coef,Wavelet / entropy / TKEO,0.0,,,0.0,,0.0,,,0
+550,det_TKEO_mean_4_coef,Wavelet / entropy / TKEO,0.0,,,0.0,,0.0,,,0
+551,det_TKEO_mean_5_coef,Wavelet / entropy / TKEO,0.0,,,0.0,,0.0,,,0
+552,det_TKEO_mean_6_coef,Wavelet / entropy / TKEO,0.0,,,0.0,,0.0,,,0
+553,det_TKEO_mean_7_coef,Wavelet / entropy / TKEO,0.0,,,0.0,,0.0,,,0
+554,det_TKEO_mean_8_coef,Wavelet / entropy / TKEO,0.0,,,0.0,,0.0,,,0
+555,tqwt_meanValue_dec_10,TQWT (meanValue),0.0,,,0.0,,0.0,,,0
+556,tqwt_meanValue_dec_12,TQWT (meanValue),0.0,,,0.0,,0.0,,,0
+557,tqwt_meanValue_dec_13,TQWT (meanValue),0.0,,,0.0,,0.0,,,0
+558,tqwt_meanValue_dec_2,TQWT (meanValue),0.0,,,0.0,,0.0,,,0
+559,tqwt_meanValue_dec_4,TQWT (meanValue),0.0,,,0.0,,0.0,,,0
+560,tqwt_meanValue_dec_7,TQWT (meanValue),0.0,,,0.0,,0.0,,,0
+561,tqwt_meanValue_dec_8,TQWT (meanValue),0.0,,,0.0,,0.0,,,0
+562,tqwt_meanValue_dec_9,TQWT (meanValue),0.0,,,0.0,,0.0,,,0
+563,tqwt_medianValue_dec_31,TQWT (medianValue),0.0,,,0.0,,0.0,,,0
+564,tqwt_medianValue_dec_33,TQWT (medianValue),0.0,,,0.0,,0.0,,,0
+565,tqwt_medianValue_dec_35,TQWT (medianValue),0.0,,,0.0,,0.0,,,0
+566,tqwt_medianValue_dec_36,TQWT (medianValue),0.0,,,0.0,,0.0,,,0
+567,tqwt_medianValue_dec_22,TQWT (medianValue),0.0,,,0.0,,0.0,,,0
+568,tqwt_medianValue_dec_24,TQWT (medianValue),0.0,,,0.0,,0.0,,,0
+569,tqwt_medianValue_dec_25,TQWT (medianValue),0.0,,,0.0,,0.0,,,0
+570,tqwt_medianValue_dec_27,TQWT (medianValue),0.0,,,0.0,,0.0,,,0
+571,tqwt_medianValue_dec_28,TQWT (medianValue),0.0,,,0.0,,0.0,,,0
+572,tqwt_stdValue_dec_6,TQWT (stdValue),0.0,,,0.0,,0.0,,,0
+573,tqwt_stdValue_dec_7,TQWT (stdValue),0.0,,,0.0,,0.0,,,0
+574,tqwt_stdValue_dec_8,TQWT (stdValue),0.0,,,0.0,,0.0,,,0
+575,tqwt_stdValue_dec_9,TQWT (stdValue),0.0,,,0.0,,0.0,,,0
+576,tqwt_stdValue_dec_10,TQWT (stdValue),0.0,,,0.0,,0.0,,,0
+577,tqwt_stdValue_dec_11,TQWT (stdValue),0.0,,,0.0,,0.0,,,0
+578,tqwt_stdValue_dec_12,TQWT (stdValue),0.0,,,0.0,,0.0,,,0
+579,tqwt_stdValue_dec_13,TQWT (stdValue),0.0,,,0.0,,0.0,,,0
+580,tqwt_meanValue_dec_34,TQWT (meanValue),0.0,,,0.0,,0.0,,,0
+581,tqwt_meanValue_dec_35,TQWT (meanValue),0.0,,,0.0,,0.0,,,0
+582,tqwt_meanValue_dec_36,TQWT (meanValue),0.0,,,0.0,,0.0,,,0
+583,tqwt_stdValue_dec_1,TQWT (stdValue),0.0,,,0.0,,0.0,,,0
+584,tqwt_stdValue_dec_2,TQWT (stdValue),0.0,,,0.0,,0.0,,,0
+585,tqwt_stdValue_dec_3,TQWT (stdValue),0.0,,,0.0,,0.0,,,0
+586,tqwt_stdValue_dec_4,TQWT (stdValue),0.0,,,0.0,,0.0,,,0
+587,tqwt_stdValue_dec_5,TQWT (stdValue),0.0,,,0.0,,0.0,,,0
+588,tqwt_meanValue_dec_26,TQWT (meanValue),0.0,,,0.0,,0.0,,,0
+589,tqwt_meanValue_dec_27,TQWT (meanValue),0.0,,,0.0,,0.0,,,0
+590,tqwt_meanValue_dec_29,TQWT (meanValue),0.0,,,0.0,,0.0,,,0
+591,tqwt_meanValue_dec_30,TQWT (meanValue),0.0,,,0.0,,0.0,,,0
+592,tqwt_meanValue_dec_31,TQWT (meanValue),0.0,,,0.0,,0.0,,,0
+593,tqwt_meanValue_dec_33,TQWT (meanValue),0.0,,,0.0,,0.0,,,0
+594,tqwt_meanValue_dec_21,TQWT (meanValue),0.0,,,0.0,,0.0,,,0
+595,tqwt_meanValue_dec_22,TQWT (meanValue),0.0,,,0.0,,0.0,,,0
+596,tqwt_meanValue_dec_24,TQWT (meanValue),0.0,,,0.0,,0.0,,,0
+597,det_entropy_log_3_coef,Wavelet / entropy / TKEO,0.0,,,0.0,,0.0,,,0
+598,det_entropy_log_4_coef,Wavelet / entropy / TKEO,0.0,,,0.0,,0.0,,,0
+599,det_entropy_log_5_coef,Wavelet / entropy / TKEO,0.0,,,0.0,,0.0,,,0
+600,det_entropy_log_6_coef,Wavelet / entropy / TKEO,0.0,,,0.0,,0.0,,,0
+601,det_entropy_log_7_coef,Wavelet / entropy / TKEO,0.0,,,0.0,,0.0,,,0
+602,det_entropy_log_8_coef,Wavelet / entropy / TKEO,0.0,,,0.0,,0.0,,,0
+603,det_entropy_log_9_coef,Wavelet / entropy / TKEO,0.0,,,0.0,,0.0,,,0
+604,det_entropy_log_10_coef,Wavelet / entropy / TKEO,0.0,,,0.0,,0.0,,,0
+605,det_entropy_shannon_5_coef,Wavelet / entropy / TKEO,0.0,,,0.0,,0.0,,,0
+606,det_entropy_shannon_6_coef,Wavelet / entropy / TKEO,0.0,,,0.0,,0.0,,,0
+607,det_entropy_shannon_7_coef,Wavelet / entropy / TKEO,0.0,,,0.0,,0.0,,,0
+608,det_entropy_shannon_9_coef,Wavelet / entropy / TKEO,0.0,,,0.0,,0.0,,,0
+609,det_entropy_log_1_coef,Wavelet / entropy / TKEO,0.0,,,0.0,,0.0,,,0
+610,det_entropy_log_2_coef,Wavelet / entropy / TKEO,0.0,,,0.0,,0.0,,,0
+611,Ed_7_coef,Wavelet / entropy / TKEO,0.0,,,0.0,,0.0,,,0
+612,Ed_8_coef,Wavelet / entropy / TKEO,0.0,,,0.0,,0.0,,,0
+613,Ed_9_coef,Wavelet / entropy / TKEO,0.0,,,0.0,,0.0,,,0
+614,Ed_10_coef,Wavelet / entropy / TKEO,0.0,,,0.0,,0.0,,,0
+615,det_entropy_shannon_2_coef,Wavelet / entropy / TKEO,0.0,,,0.0,,0.0,,,0
+616,det_entropy_shannon_4_coef,Wavelet / entropy / TKEO,0.0,,,0.0,,0.0,,,0
+617,std_12th_delta_delta,MFCC delta-delta,0.0,,,0.0,,0.0,,,0
+618,Ea,Wavelet / entropy / TKEO,0.0,,,0.0,,0.0,,,0
+619,Ed_2_coef,Wavelet / entropy / TKEO,0.0,,,0.0,,0.0,,,0
+620,Ed_3_coef,Wavelet / entropy / TKEO,0.0,,,0.0,,0.0,,,0
+621,Ed_4_coef,Wavelet / entropy / TKEO,0.0,,,0.0,,0.0,,,0
+622,Ed_5_coef,Wavelet / entropy / TKEO,0.0,,,0.0,,0.0,,,0
+623,Ed_6_coef,Wavelet / entropy / TKEO,0.0,,,0.0,,0.0,,,0
+624,tqwt_minValue_dec_2,TQWT (minValue),0.0,,,0.0,,0.0,,,0
+625,tqwt_minValue_dec_3,TQWT (minValue),0.0,,,0.0,,0.0,,,0
+626,tqwt_minValue_dec_4,TQWT (minValue),0.0,,,0.0,,0.0,,,0
+627,tqwt_minValue_dec_6,TQWT (minValue),0.0,,,0.0,,0.0,,,0
+628,tqwt_minValue_dec_7,TQWT (minValue),0.0,,,0.0,,0.0,,,0
+629,tqwt_minValue_dec_8,TQWT (minValue),0.0,,,0.0,,0.0,,,0
+630,tqwt_minValue_dec_9,TQWT (minValue),0.0,,,0.0,,0.0,,,0
+631,tqwt_stdValue_dec_31,TQWT (stdValue),0.0,,,0.0,,0.0,,,0
+632,tqwt_stdValue_dec_35,TQWT (stdValue),0.0,,,0.0,,0.0,,,0
+633,tqwt_stdValue_dec_36,TQWT (stdValue),0.0,,,0.0,,0.0,,,0
+634,tqwt_minValue_dec_1,TQWT (minValue),0.0,,,0.0,,0.0,,,0
+635,tqwt_stdValue_dec_22,TQWT (stdValue),0.0,,,0.0,,0.0,,,0
+636,tqwt_stdValue_dec_23,TQWT (stdValue),0.0,,,0.0,,0.0,,,0
+637,tqwt_stdValue_dec_24,TQWT (stdValue),0.0,,,0.0,,0.0,,,0
+638,tqwt_stdValue_dec_25,TQWT (stdValue),0.0,,,0.0,,0.0,,,0
+639,tqwt_stdValue_dec_27,TQWT (stdValue),0.0,,,0.0,,0.0,,,0
+640,tqwt_stdValue_dec_28,TQWT (stdValue),0.0,,,0.0,,0.0,,,0
+641,tqwt_stdValue_dec_29,TQWT (stdValue),0.0,,,0.0,,0.0,,,0
+642,tqwt_stdValue_dec_14,TQWT (stdValue),0.0,,,0.0,,0.0,,,0
+643,tqwt_stdValue_dec_15,TQWT (stdValue),0.0,,,0.0,,0.0,,,0
+644,tqwt_stdValue_dec_16,TQWT (stdValue),0.0,,,0.0,,0.0,,,0
+645,tqwt_stdValue_dec_18,TQWT (stdValue),0.0,,,0.0,,0.0,,,0
+646,tqwt_stdValue_dec_19,TQWT (stdValue),0.0,,,0.0,,0.0,,,0
+647,tqwt_stdValue_dec_20,TQWT (stdValue),0.0,,,0.0,,0.0,,,0
+648,tqwt_stdValue_dec_21,TQWT (stdValue),0.0,,,0.0,,0.0,,,0
+649,tqwt_minValue_dec_34,TQWT (minValue),0.0,,,0.0,,0.0,,,0
+650,tqwt_minValue_dec_35,TQWT (minValue),0.0,,,0.0,,0.0,,,0
+651,tqwt_minValue_dec_36,TQWT (minValue),0.0,,,0.0,,0.0,,,0
+652,tqwt_maxValue_dec_1,TQWT (maxValue),0.0,,,0.0,,0.0,,,0
+653,tqwt_maxValue_dec_2,TQWT (maxValue),0.0,,,0.0,,0.0,,,0
+654,tqwt_maxValue_dec_3,TQWT (maxValue),0.0,,,0.0,,0.0,,,0
+655,tqwt_maxValue_dec_4,TQWT (maxValue),0.0,,,0.0,,0.0,,,0
+656,tqwt_maxValue_dec_5,TQWT (maxValue),0.0,,,0.0,,0.0,,,0
+657,tqwt_minValue_dec_26,TQWT (minValue),0.0,,,0.0,,0.0,,,0
+658,tqwt_minValue_dec_27,TQWT (minValue),0.0,,,0.0,,0.0,,,0
+659,tqwt_minValue_dec_28,TQWT (minValue),0.0,,,0.0,,0.0,,,0
+660,tqwt_minValue_dec_29,TQWT (minValue),0.0,,,0.0,,0.0,,,0
+661,tqwt_minValue_dec_30,TQWT (minValue),0.0,,,0.0,,0.0,,,0
+662,tqwt_minValue_dec_31,TQWT (minValue),0.0,,,0.0,,0.0,,,0
+663,tqwt_minValue_dec_33,TQWT (minValue),0.0,,,0.0,,0.0,,,0
+664,tqwt_minValue_dec_20,TQWT (minValue),0.0,,,0.0,,0.0,,,0
+665,tqwt_minValue_dec_21,TQWT (minValue),0.0,,,0.0,,0.0,,,0
+666,tqwt_minValue_dec_22,TQWT (minValue),0.0,,,0.0,,0.0,,,0
+667,tqwt_minValue_dec_23,TQWT (minValue),0.0,,,0.0,,0.0,,,0
+668,tqwt_minValue_dec_25,TQWT (minValue),0.0,,,0.0,,0.0,,,0
+669,tqwt_minValue_dec_14,TQWT (minValue),0.0,,,0.0,,0.0,,,0
+670,tqwt_minValue_dec_15,TQWT (minValue),0.0,,,0.0,,0.0,,,0
+671,tqwt_minValue_dec_16,TQWT (minValue),0.0,,,0.0,,0.0,,,0
+672,std_5th_delta_delta,MFCC delta-delta,0.0,,,0.0,,0.0,,,0
+673,std_11th_delta,MFCC delta,0.0,,,0.0,,0.0,,,0
+674,std_12th_delta,MFCC delta,0.0,,,0.0,,0.0,,,0
+675,std_1st_delta_delta,MFCC delta-delta,0.0,,,0.0,,0.0,,,0
+676,std_2nd_delta_delta,MFCC delta-delta,0.0,,,0.0,,0.0,,,0
+677,std_3rd_delta_delta,MFCC delta-delta,0.0,,,0.0,,0.0,,,0
+678,std_2nd_delta,MFCC delta,0.0,,,0.0,,0.0,,,0
+679,std_3rd_delta,MFCC delta,0.0,,,0.0,,0.0,,,0
+680,std_MFCC_9th_coef,MFCC,0.0,,,0.0,,0.0,,,0
+681,std_MFCC_11th_coef,MFCC,0.0,,,0.0,,0.0,,,0
+682,std_MFCC_12th_coef,MFCC,0.0,,,0.0,,0.0,,,0
+683,std_0th_delta,MFCC delta,0.0,,,0.0,,0.0,,,0
+684,std_1st_delta,MFCC delta,0.0,,,0.0,,0.0,,,0
+685,tqwt_maxValue_dec_30,TQWT (maxValue),0.0,,,0.0,,0.0,,,0
+686,tqwt_maxValue_dec_31,TQWT (maxValue),0.0,,,0.0,,0.0,,,0
+687,tqwt_maxValue_dec_32,TQWT (maxValue),0.0,,,0.0,,0.0,,,0
+688,tqwt_maxValue_dec_33,TQWT (maxValue),0.0,,,0.0,,0.0,,,0
+689,tqwt_maxValue_dec_34,TQWT (maxValue),0.0,,,0.0,,0.0,,,0
+690,tqwt_maxValue_dec_35,TQWT (maxValue),0.0,,,0.0,,0.0,,,0
+691,tqwt_maxValue_dec_36,TQWT (maxValue),0.0,,,0.0,,0.0,,,0
+692,tqwt_skewnessValue_dec_1,TQWT (skewnessValue),0.0,,,0.0,,0.0,,,0
+693,tqwt_maxValue_dec_23,TQWT (maxValue),0.0,,,0.0,,0.0,,,0
+694,tqwt_maxValue_dec_24,TQWT (maxValue),0.0,,,0.0,,0.0,,,0
+695,tqwt_maxValue_dec_26,TQWT (maxValue),0.0,,,0.0,,0.0,,,0
+696,tqwt_maxValue_dec_27,TQWT (maxValue),0.0,,,0.0,,0.0,,,0
+697,tqwt_maxValue_dec_28,TQWT (maxValue),0.0,,,0.0,,0.0,,,0
+698,tqwt_maxValue_dec_29,TQWT (maxValue),0.0,,,0.0,,0.0,,,0
+699,tqwt_maxValue_dec_14,TQWT (maxValue),0.0,,,0.0,,0.0,,,0
+700,tqwt_maxValue_dec_15,TQWT (maxValue),0.0,,,0.0,,0.0,,,0
+701,tqwt_maxValue_dec_16,TQWT (maxValue),0.0,,,0.0,,0.0,,,0
+702,tqwt_maxValue_dec_17,TQWT (maxValue),0.0,,,0.0,,0.0,,,0
+703,tqwt_maxValue_dec_6,TQWT (maxValue),0.0,,,0.0,,0.0,,,0
+704,tqwt_maxValue_dec_8,TQWT (maxValue),0.0,,,0.0,,0.0,,,0
+705,tqwt_maxValue_dec_9,TQWT (maxValue),0.0,,,0.0,,0.0,,,0
+706,std_MFCC_0th_coef,MFCC,0.0,,,0.0,,0.0,,,0
+707,std_MFCC_1st_coef,MFCC,0.0,,,0.0,,0.0,,,0
+708,std_MFCC_6th_coef,MFCC,0.0,,,0.0,,0.0,,,0
+709,std_MFCC_7th_coef,MFCC,0.0,,,0.0,,0.0,,,0
+710,mean_6th_delta_delta,MFCC delta-delta,0.0,,,0.0,,0.0,,,0
+711,mean_7th_delta_delta,MFCC delta-delta,0.0,,,0.0,,0.0,,,0
+712,mean_9th_delta_delta,MFCC delta-delta,0.0,,,0.0,,0.0,,,0
+713,mean_10th_delta_delta,MFCC delta-delta,0.0,,,0.0,,0.0,,,0
+714,mean_12th_delta_delta,MFCC delta-delta,0.0,,,0.0,,0.0,,,0
+715,mean_delta_delta_0th,MFCC delta-delta,0.0,,,0.0,,0.0,,,0
+716,mean_2nd_delta_delta,MFCC delta-delta,0.0,,,0.0,,0.0,,,0
+717,mean_3rd_delta_delta,MFCC delta-delta,0.0,,,0.0,,0.0,,,0
+718,mean_4th_delta_delta,MFCC delta-delta,0.0,,,0.0,,0.0,,,0
+719,mean_4th_delta,MFCC delta,0.0,,,0.0,,0.0,,,0
+720,tqwt_skewnessValue_dec_26,TQWT (skewnessValue),0.0,,,0.0,,0.0,,,0
+721,tqwt_skewnessValue_dec_27,TQWT (skewnessValue),0.0,,,0.0,,0.0,,,0
+722,tqwt_skewnessValue_dec_30,TQWT (skewnessValue),0.0,,,0.0,,0.0,,,0
+723,tqwt_skewnessValue_dec_31,TQWT (skewnessValue),0.0,,,0.0,,0.0,,,0
+724,tqwt_skewnessValue_dec_19,TQWT (skewnessValue),0.0,,,0.0,,0.0,,,0
+725,tqwt_skewnessValue_dec_20,TQWT (skewnessValue),0.0,,,0.0,,0.0,,,0
+726,tqwt_skewnessValue_dec_22,TQWT (skewnessValue),0.0,,,0.0,,0.0,,,0
+727,tqwt_skewnessValue_dec_24,TQWT (skewnessValue),0.0,,,0.0,,0.0,,,0
+728,tqwt_skewnessValue_dec_14,TQWT (skewnessValue),0.0,,,0.0,,0.0,,,0
+729,tqwt_skewnessValue_dec_17,TQWT (skewnessValue),0.0,,,0.0,,0.0,,,0
+730,tqwt_skewnessValue_dec_2,TQWT (skewnessValue),0.0,,,0.0,,0.0,,,0
+731,tqwt_skewnessValue_dec_3,TQWT (skewnessValue),0.0,,,0.0,,0.0,,,0
+732,tqwt_skewnessValue_dec_6,TQWT (skewnessValue),0.0,,,0.0,,0.0,,,0
+733,mean_MFCC_11th_coef,MFCC,0.0,,,0.0,,0.0,,,0
+734,mean_0th_delta,MFCC delta,0.0,,,0.0,,0.0,,,1
+735,mean_1st_delta,MFCC delta,0.0,,,0.0,,0.0,,,0
+736,mean_MFCC_4th_coef,MFCC,0.0,,,0.0,,0.0,,,0
+737,mean_MFCC_8th_coef,MFCC,0.0,,,0.0,,0.0,,,1
+738,IMF_NSR_SEO,IMF,0.0,,,0.0,,0.0,,,0
+739,IMF_NSR_entropy,IMF,0.0,,,0.0,,0.0,,,0
+740,mean_Log_energy,Log-energy,0.0,,,0.0,,0.0,,,0
+741,VFER_mean,VFER,0.0,,,0.0,,0.0,,,0
+742,VFER_std,VFER,0.0,,,0.0,,0.0,,,0
+743,VFER_entropy,VFER,0.0,,,0.0,,0.0,,,0
+744,VFER_NSR_SEO,VFER,0.0,,,0.0,,0.0,,,0
+745,IMF_SNR_SEO,IMF,0.0,,,0.0,,0.0,,,0
+746,tqwt_kurtosisValue_dec_31,TQWT (kurtosisValue),0.0,,,0.0,,0.0,,,0
+747,rapJitter,Jitter/Shimmer,0.0,,,0.0,,0.0,,,0
+748,locPctJitter,Jitter/Shimmer,0.0,,,0.0,,0.0,,,0
+749,meanPeriodPulses,Pulse/period,0.0,,,0.0,,0.0,,,0
+750,tqwt_kurtosisValue_dec_35,TQWT (kurtosisValue),0.0,,,0.0,,0.0,,,0
+751,numPeriodsPulses,Pulse/period,0.0,,,0.0,,0.0,,,0
+752,PPE,Baseline / glottal quotient,0.0,,,0.0,,0.0,,,0
